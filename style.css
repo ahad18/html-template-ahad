@@ -1,0 +1,624 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;1,9..40,100;1,9..40,200&family=DM+Serif+Display&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* header */
+.header{
+    background-color: white;
+    padding: 15px 0;
+}
+.headercontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menum{
+    margin-right: 250px;
+}
+.menu{
+    font-family: 'DM Sans', sans-serif;
+    color: #393A3D;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 10px;
+}
+    
+.hbtn1{
+    background-color: white;
+    border-radius: 10px;
+    border:2px solid;
+    border-color: #0E8900;
+    color: #0E8900;
+    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.hbtn2{
+    background-color: #0E8900;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 7px 36px;
+    font-weight: 400;
+    font-size: 20px;
+}
+/* banner */
+.banner{
+    background-color: #17303D;
+    padding: 100px 0;
+}
+.bannerheading{
+    font-family: 'DM Serif Display', serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.bannerheading2{
+    font-family: 'DM Serif Display', serif;
+    color: #2CA01C;
+    font-weight: 400;
+    font-size: 45px;
+}
+.key1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+
+}
+.feature{
+    margin-left: 30px;
+}
+.bbtn1{
+    background-color: #0E8900;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    padding: 7px 30px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 70px;
+}
+.bbtn2{
+    background-color: #17303D;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    font-weight: 400;
+    font-size: 20px;
+}
+.bannercontent{
+    display: flex;
+    justify-content: baseline;
+}
+.bannerimg{
+    width: 605px;
+    margin-top: 40px;
+}
+/* Our Pakages */
+.pricingsection{
+    background-color: #FFFFFF;
+    padding: 100px 0;  
+    
+
+}
+.pricing-img{
+
+    width: 115px;
+}
+.table-content{
+    
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-row{
+    width: 30px;
+}
+.table-icon{
+    width: 18px;
+    height: 18px;
+}
+.pricing-table{
+    border: 1px solid #DFE5EB;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    
+}
+.mostpopular{
+    border-radius: 5px;
+    padding: 2px 26px;
+    background-color: #17303D;
+    margin: 0 54px;
+    position: absolute;
+    top: -14px;
+    color: #FFFFFF;
+}
+.Unlimited{
+    padding: 20px 0;
+}
+.ahadp{
+    color: #162D3D;
+    font-size: 14px;
+    font-weight: 600;
+    padding-left: 20px;
+
+}
+.tablebtn1{
+    color: #2CA01C;
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #2CA01C;
+    border-radius: 5px;
+    padding: 6px 14px;
+}
+.tablebtn2{
+    color: #FFFFFF;
+    background-color: #2CA01C;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #2CA01C;
+    border-radius: 5px;
+    padding: 6px 14px;
+}
+.ahadbtn{
+    padding: 34px 60px;
+}
+.ahadtick{
+    padding:20px 0 ;
+}
+.bt{
+    border-top: none;
+    
+}
+.bb{
+    border-bottom: none;
+    
+}
+.bl{
+    border-left: none;
+    
+}
+.br{
+    border-right: none;
+    
+}
+.bt-1{
+    border-top: 1px solid #DFE5EB;
+    
+}
+.bb-1{
+    border-bottom: 1px solid #DFE5EB;
+    
+}
+.bl-1{
+    border-left: 1px solid #DFE5EB;
+    
+}
+.br-1{
+    border-right: 1px solid #DFE5EB;
+    
+}
+/* Stunning Features */
+.features{
+    padding: 100px 0;
+    background-color: #FFFFFF;
+}
+.feature1{
+    text-align: center;
+    
+}
+.featureicon{
+    width: 70px;
+}
+.featureh{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #17303D;
+}
+.featureh1{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #2CA01C;
+
+}
+.feature2{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+  
+}
+.box{
+    background-color: #17303D;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 330px;
+    
+}
+.boxsub{
+    display: flex;
+}
+.boxh{
+    font-family: 'DM Serif Display', serif;
+    color: #2CA01C;
+    font-size: 30px;
+}
+.boxh1{
+    font-family: 'DM Serif Display', serif;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.boximg{
+    width: 50px;
+    margin-left: auto;
+}
+.boxp{
+    color: #FFFFFF;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 30px;
+
+}
+.adbanner{
+    margin-top: 150px;
+    background-color: #43A439 ;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+.adh{
+color: #FFFFFF;
+font-family: 'DM Serif Display', serif;
+font-size: 40px;
+font-weight: 400;
+}
+.adh1{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+font-size: 40px;
+color: #17303D
+
+}
+.adbtn{
+    background-color: #43A439;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    color: #FFFFFF;
+    padding: 5px 20px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+ 
+}
+.adimg{
+    position: absolute;
+    right: 0;
+    width: 450px;
+}
+.adcontent{
+    padding: 60px 75px;
+}
+.btnicon{
+    margin-right: 15px;
+}
+/* why-sction */
+.why{
+padding: 100px 0;
+}
+.why-box-1-img{
+    
+    width: 73px;
+    left: 0px;
+    bottom: -48px;
+
+}
+.why-box-2-img{
+    
+    width: 73px;
+    left: 376px;
+    bottom: -51px;
+}
+.why-box{
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.why-box-sub-1{
+    display: flex;
+    align-items: center;
+
+}
+.ahadusa{
+    margin-top: 20px;
+}
+.a35{
+    font-size: 35px;
+    font-weight: 800;
+}
+.why-box-1{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+   padding-left: 90px;
+   position: relative;
+}
+.why-box-1-sub{
+    width: 260px;
+    margin-left:30px ;
+}
+.why-boxp{
+    font-size: 15px;
+    text-align: justify;
+  
+    font-weight: 600;
+}
+.why-box1a{
+    color:#0E890080;
+    font-size: 170px;
+    font-family: sans-serif;
+}
+.why-box-h{
+    margin-top: 60px;
+}
+.why-box-h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0E8900;
+
+}
+/* new section */
+.reviews{
+    background-color: #17303D;
+    padding: 100px 0;
+    
+}
+.reviewsh{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+.reviewsh1{
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    color: #2CA01C;
+}
+.reviewsimg{
+    position: absolute;
+    left: 25%;
+    top: 5%;
+    width: 50%;
+}
+.reviewscontent{
+    position: relative;
+}
+.box1{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-top: 65px;
+    width: 300px;
+}
+.bimg1{
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+}
+.boxname{
+    font-family: 'DM Serif Display', serif;
+    color: #17303D;
+    font-size: 25px;
+}
+.boxname1{
+    color: #43A439;
+    font-size: 18px;
+}
+.boxcontent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    padding: 10px 20px;
+}
+.boxpp{
+    font-size: 15px;
+    text-align: justify;
+    color: #17303D;
+    font-weight: 600;
+}
+.bimg2{
+    width: 50px;
+    height: 40px;
+    margin-top: 10px;
+}
+.rbox{
+    display: flex;
+    gap: 70px;
+    flex-wrap: wrap;
+    
+}
+/* form */
+.form{
+    padding: 100px 0;
+    background-color: #FFFFFF;
+}
+.formicon{
+    width: 70px;
+}
+.formh{
+    font-family: 'DM Serif Display', serif;
+    font-size: 50px;
+    font-weight: 500;
+    color: #17303D;
+}
+.formcontent{
+    text-align: center;
+}
+.formp{
+    color: #17303D;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+.formp1{
+    color: #17303D;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ffield{
+    background-color: #E5F7E5;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #17303D;
+    width: 260px;
+    height: 32px;
+}
+.ffieldmessage{
+    background-color:  #E5F7E5;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 600;
+    
+    padding: 10px 10px;
+    width: 562px;
+    max-width: 562px;
+    height: 100px;
+}
+.formm{
+    width: 585px;
+    margin-top: 40px;
+}
+.f1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.label{
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.formbtn{
+    margin-top: 40px;
+    background-color: #2CA01C;
+    border-radius: 10px;
+    padding: 15px 255px;
+    border-style: none;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+}
+.formmain{
+    display: flex;
+}
+.contactusimg{
+    width: 454px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+/* footer */
+.footer{
+    background-color: #17303D;
+    padding:70px 0 ;
+    position: relative;
+}
+.footer2{
+    display: block;
+}
+.footer1{
+    display: block;
+}
+.footercontent{
+    display: flex;
+    justify-content: space-between;
+}
+.footerimg{
+    position: absolute;
+    bottom: 0px;
+    left: 73px;
+    width: 300px;
+}
+.footericon{
+    width: 141px;
+    display: block;
+    margin-top: 25px;
+    margin-left: 41px;}
+
+    .footer-menu{
+        color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    }
+    .footer2h{
+        color: #0E8900;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .emailbtn{
+        background-color: #F5F8F8;
+        border-radius: 0 10px  10px 0;
+        padding: 10px 30px;
+        border-style: none;
+        font-size: 20px;
+        font-weight: 800;
+        color: #2CA01C;
+        margin-top: 30px;
+    }
+    .emailbtn1{
+        
+        background-color: #17303D;
+        border-radius:  10px 0 0 10px ;
+        padding: 9px 30px;
+        border: 1px solid white;
+        font-size: 20px;
+        font-weight: 800;
+        color: #F5F8F8;
+        margin-top: 30px;
+    }
+    .footer3h{
+        font-family: 'DM Serif Display', serif;
+        font-size: 23px;
+        font-weight: 500;
+        color: #F5F8F8;
+    
+    }
+    .footer3{
+        position: relative;
+    }
+    .footer3img{
+       
+        right: -21px;
+        width: 250px;
+        position: absolute;
+        bottom: -36%;}
